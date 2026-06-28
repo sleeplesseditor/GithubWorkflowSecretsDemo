@@ -1,0 +1,22 @@
+{
+  "name": "github-workflow-secrets",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Josh Bryson",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "express": "^5.2.1",
+    "mongodb": "^7.4.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "playwright": "^1.61.1"
+  }
+}
